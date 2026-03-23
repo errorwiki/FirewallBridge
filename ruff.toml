@@ -1,0 +1,9 @@
+line-length = 120
+extend-exclude = ["docs"]
+
+[lint]
+select = ["E", "F", "W", "I", "UP", "SIM", "C4"]
+ignore = ["E501"]
+
+[format]
+line-ending = "auto"
